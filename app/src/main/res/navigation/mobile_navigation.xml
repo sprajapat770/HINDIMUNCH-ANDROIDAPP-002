@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navHome">
+
+    <fragment
+        android:id="@+id/navHome"
+        android:name="com.example.hindimunch.Fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navGallery"
+        android:name="com.example.hindimunch.Fragment.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navSlideshow"
+        android:name="com.example.hindimunch.Fragment.SlidShowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <!--<fragment
+        android:id="@+id/nav_home2"
+        android:name="com.example.hindimunch.Fragment.HomeFragment"
+        android:label="Home2"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gallery2"
+        android:name="com.example.hindimunch.Fragment.GalleryFragment"
+        android:label="Gallery2"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow2"
+        android:name="com.example.hindimunch.Fragment.SlidShowFragment"
+        android:label="SlidShhow2"
+        tools:layout="@layout/fragment_slideshow" />
+-->
+</navigation>

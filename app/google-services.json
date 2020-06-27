@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97576950701",
+    "firebase_url": "https://hindimunch-1c8f8.firebaseio.com",
+    "project_id": "hindimunch-1c8f8",
+    "storage_bucket": "hindimunch-1c8f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97576950701:android:ccc7a6daf5cf80c5ee1f24",
+        "android_client_info": {
+          "package_name": "com.example.hindimunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97576950701-5sq2bg929ngu3rglek7gae1qa2hshm10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hindimunch",
+            "certificate_hash": "ed86c350a234b88b45de0267b302cc8a691a1637"
+          }
+        },
+        {
+          "client_id": "97576950701-o3qhoomfvol551pjsel8c5k6nq77io7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuV7Qn727oeWg95nawGpHRgXe7Y18Ep7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97576950701-o3qhoomfvol551pjsel8c5k6nq77io7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

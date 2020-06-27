@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_drawer">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_00D3D7"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_30">
+
+        <ImageView
+            android:id="@+id/imgNav"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@drawable/ic_menu_24"
+            android:tint="@color/color_FF000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_50"
+            android:gravity="left"
+            android:text="@string/hindi_munch"
+            android:textColor="@color/color_FF000000"
+            android:textSize="@dimen/sp_20" />
+
+        <ImageView
+            android:id="@+id/imgCustomLang"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/dp_90"
+            android:src="@drawable/ic_translate_24"
+            android:tint="@color/color_FF000000" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/crlCstoolProfile"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/dp_45"
+            android:src="@drawable/img_profile" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@drawable/ic_notifications_none_24"
+            android:tint="@color/color_FF000000" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_host_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+</LinearLayout>

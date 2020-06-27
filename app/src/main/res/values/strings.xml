@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HindiMunch</string>
+    <string name="hindi_munch">Hindi Munch</string>
+    <string name="quote">If you want to shine like the sun, then burn like the sun first.</string>
+    <string name="author_name">- Abdul Kalam</string>
+    <string name="card_string">You have to dream before the dreams come true.</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="user_name">UserName</string>
+    <string name="use_mail_id">UserMail Id</string>
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Loading</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_5"
+    android:layout_marginTop="@dimen/dp_5"
+    android:layout_marginRight="@dimen/dp_5"
+    android:layout_marginBottom="@dimen/dp_5"
+    android:paddingLeft="@dimen/dp_20"
+    android:paddingRight="@dimen/dp_20"
+    app:cardCornerRadius="@dimen/dp_5"
+    app:cardElevation="@dimen/dp_8">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_logo_white" />
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/sp_20"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:background="@color/color_FF000000"
+            android:gravity="center"
+            android:text="Quote"
+            android:textAllCaps="false"
+            android:textColor="@color/color_FFFFFFFF"
+            android:textSize="@dimen/sp_10" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

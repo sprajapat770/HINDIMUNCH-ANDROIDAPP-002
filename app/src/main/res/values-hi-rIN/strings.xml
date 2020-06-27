@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">हिन्दीमंच</string>
+    <string name="hindi_munch">हिन्दी मंच</string>
+    <string name="quote">अगर तुम सूरज की तरह चमकना चाहते हो तो पहले सूरज की तरह जलो। |</string>
+    <string name="author_name">- अब्दुल कलाम</string>
+    <string name="card_string">इससे पहले कि सपने सच हों आपको सपने देखने होंगे।</string>
+    <string name="user_name">UserName</string>
+    <string name="use_mail_id">UserMail Id</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="loading">Loading</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+</resources>

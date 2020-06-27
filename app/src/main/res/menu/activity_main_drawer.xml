@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/navGallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/navSlideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navMotiv"
+            android:title="Motivational" />
+        <item
+            android:id="@+id/navSocial"
+            android:title="Social" />
+        <item
+            android:id="@+id/navQuote"
+            android:title="Quotes" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_language"
+            android:title="Language A/क" />
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_support"
+            android:title="Support" />
+    </group>
+</menu>
