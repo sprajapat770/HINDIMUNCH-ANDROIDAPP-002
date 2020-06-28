@@ -4,6 +4,7 @@
     tools:showIn="navigation_view">
     <item
         android:id="@+id/menu_close_settings"
+        android:icon="@drawable/ic_keyboard_return_24"
         android:title="Back to Main" />
 
     <group android:id="@+id/group_settings">
@@ -11,7 +12,7 @@
             android:id="@+id/menu_setting_1"
             android:title="Setting 1" />
         <item
-            android:id="@+id/menu_setting_2"
-            android:title="Setting 2" />
+            android:id="@+id/menu_sign_out"
+            android:title="Sign Out" />
     </group>
 </menu>

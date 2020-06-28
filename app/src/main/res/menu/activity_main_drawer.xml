@@ -9,8 +9,8 @@
             android:id="@+id/navHome"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/navGallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/navAccount"
+            android:title="Account" />
         <item
             android:id="@+id/navSlideshow"
             android:title="@string/menu_slideshow" />

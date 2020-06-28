@@ -41,4 +41,8 @@
     <dimen name="dp_180">180dp</dimen>
     <dimen name="dp_400">400dp</dimen>
     <dimen name="dp_350">350dp</dimen>
+    <dimen name="dp_201">201dp</dimen>
+    <dimen name="dp_202">202dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_205">205dp</dimen>
 </resources>
